@@ -8,8 +8,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(time) {
-  let time = parseInt(time, 10)
+function greet(t) {
+  let time = parseInt(t, 10)
   if (time >= 0 && time < 12) {
     return "Good Morning"
   }
